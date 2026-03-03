@@ -3,6 +3,7 @@ import base64
 import os
 import json
 
+# 設定
 WP_URL = "https://dmp.intimatemerger.com/shopify/wp-json/wp/v2/posts"
 USER = os.environ.get('WP_USER')
 PASSWORD = os.environ.get('WP_PASSWORD')
@@ -13,21 +14,25 @@ def post_to_wp(title, content):
     headers = {'Authorization': f'Basic {token}'}
     payload = {'title': title, 'content': content, 'status': 'publish'}
     res = requests.post(WP_URL, headers=headers, json=payload)
-    print(f"投稿完了: {title} ({res.status_code})")
+    print(f"投稿結果: {title} ({res.status_code})")
 
-# articles.json から今日の記事を取得する
-if os.path.exists('articles.json'):
-    with open('articles.json', 'r', encoding='utf-8') as f:
-        all_articles = json.load(f)
+# 1. 記事データを読み込む
+file_path = 'articles.json'
+if os.path.exists(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        articles = json.load(f)
     
-    if all_articles:
-        # 最初の1件（またはインデックス管理された記事）を投稿
-        today_article = all_articles[0] 
-        post_to_wp(today_article['title'], today_article['content'])
+    if articles:
+        # 2. 一番上の記事を取得して投稿
+        today_post = articles[0]
+        post_to_wp(today_post['title'], today_post['content'])
         
-        # 投稿したものをリストから消して保存し直す（重複防止）
-        remaining = all_articles[1:]
-        with open('articles.json', 'w', encoding='utf-8') as f:
-            json.dump(remaining, f, ensure_ascii=False, indent=4)
+        # 3. 投稿した記事をリストから消して保存（使い回さないため）
+        remaining_articles = articles[1:]
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(remaining_articles, f, ensure_ascii=False, indent=4)
+        print("ストックを更新しました。")
+    else:
+        print("記事ストックが空です。")
 else:
-    print("記事ストック(articles.json)が見つかりません。")
+    print("articles.jsonが見つかりません。")
