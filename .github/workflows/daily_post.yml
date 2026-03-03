@@ -2,9 +2,8 @@ name: Daily WordPress Post
 
 on:
   schedule:
-    # 毎日 日本時間 10:00 (UTC 1:00) に実行
-    - cron: '0 1 * * *'
-  workflow_dispatch: # 手動実行用ボタン
+    - cron: '0 1 * * *' # 日本時間 10:00
+  workflow_dispatch: # 手動ボタン用
 
 jobs:
   post:
