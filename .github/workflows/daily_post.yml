@@ -1,10 +1,10 @@
 name: Daily WordPress Post
 
 on:
-  # schedule:
-  #   # 毎日 日本時間 10:00 (UTC 1:00) を一時停止
-  #   - cron: '0 1 * * *'
-  workflow_dispatch: # これを残しておけば、ボタンを押した時だけ実行できます
+  schedule:
+    # 毎日 日本時間 10:00 (UTC 1:00) に実行
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 手動実行ボタンも残しておきます
 
 jobs:
   post:
