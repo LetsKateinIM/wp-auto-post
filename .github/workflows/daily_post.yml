@@ -1,11 +1,3 @@
-name: Daily WordPress Post
-
-on:
-  schedule:
-    # 毎日 日本時間 10:00 (UTC 1:00) に実行
-    - cron: '0 1 * * *'
-  workflow_dispatch: # 手動実行ボタンも残しておきます
-
 jobs:
   post:
     runs-on: ubuntu-latest
@@ -16,10 +8,16 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install dependencies
-        # ↓ ここに deep-translator を追加しました
         run: pip install requests deep-translator
       - name: Run post script
         env:
           WP_USER: ${{ secrets.WP_USER }}
           WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
         run: python post_script.py
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add articles.json
+          git commit -m "Automated: Remove posted article from queue" || exit 0
+          git push
