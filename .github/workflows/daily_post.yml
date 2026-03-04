@@ -1,19 +1,30 @@
+name: Daily WordPress Post
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
 jobs:
   post:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+
       - name: Install dependencies
         run: pip install requests deep-translator
+
       - name: Run post script
         env:
           WP_USER: ${{ secrets.WP_USER }}
           WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
         run: python post_script.py
+
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
