@@ -5,14 +5,16 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:
 
+# ここから追加：Node.js 24 への移行を明示的に許可する
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   post:
     runs-on: ubuntu-latest
     steps:
-      # v3 から v4 へ変更（Node.js 20/24対応）
       - uses: actions/checkout@v4
 
-      # v4 から v5 へ変更（Node.js 20/24対応）
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
