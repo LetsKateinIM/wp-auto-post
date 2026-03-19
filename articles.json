@@ -1,38 +1,34 @@
 [
-  {
-    "title": "【2026年版】Shopifyの店舗受け取り（BOPIS）アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyの店舗受け取り（BOPIS）アプリ比較：おすすめ4選</h1><p>オンラインで購入して店舗で受け取る「BOPIS」は、送料削減とついで買いを促す強力な施策です。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Tewatashi（手渡し）</li><li>Cloneify</li><li>Dianxiaomi</li><li>Copy Products</li></ul>"
-  },
-  {
-    "title": "【2026年版】Shopifyのオムニチャネル在庫連携アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyのオムニチャネル在庫連携アプリ比較：おすすめ4選</h1><p>複数チャネルでの在庫を一元管理し、売り逃しや過剰在庫を防ぐための必須アプリを解説します。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Omni Hub</li><li>NotifyMe</li><li>Back in Stock & Restock Alerts</li><li>Pre-Order & Back in Stock</li></ul>"
-  },
-  {
-    "title": "【2026年版】ShopifyのPOSレジ連携アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】ShopifyのPOSレジ連携アプリ比較：おすすめ4選</h1><p>実店舗とオンラインストアの顧客データ・売上データを統合するための最適な連携ツールを紹介します。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>STORES 連携</li><li>Zon Staff Management</li><li>Smapify</li><li>Avada PDF Invoice</li></ul>"
-  },
-  {
-    "title": "【2026年版】Shopifyのシリアルナンバー管理アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyのシリアルナンバー管理アプリ比較：おすすめ4選</h1><p>限定品や電化製品の管理に欠かせない、個別の識別番号（シリアルナンバー）発行・管理アプリです。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Joy: Loyalty Program</li><li>formrun連携</li><li>Sukeneko（助猫）</li><li>AMP Ticket Reservation</li></ul>"
-  },
-  {
-    "title": "【2026年版】Shopifyのデジタル請求書・領収書発行アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyのデジタル請求書発行アプリ比較：おすすめ4選</h1><p>ペーパーレス化を推進し、顧客がマイページからいつでも請求書をダウンロードできる環境を整えましょう。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Sky Pilot</li><li>Saku Receipt（サクッと領収書）</li><li>Ryoshusho（領収書発行アプリ）</li><li>Kiosq</li></ul>"
-  },
-  {
-    "title": "【2026年版】Shopifyのインボイス制度対応アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyのインボイス制度対応アプリ比較：おすすめ4選</h1><p>日本の税制改正（インボイス制度）に完全対応した適格請求書を発行するための必須ツールです。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Documents Development</li><li>Orders VA</li><li>Korealy</li><li>RuffRuff Tags</li></ul>"
-  },
-  {
-    "title": "【2026年版】Shopifyの梱包明細書カスタマイズアプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyの梱包明細書カスタマイズアプリ比較：おすすめ4選</h1><p>発送時の同梱物をブランドイメージに合わせ、顧客体験（アンボクシング体験）を向上させます。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>CheckoutPlus</li><li>Order Printer Templates</li><li>Ryoshusho</li><li>Saku Receipt</li></ul>"
-  },
-  {
-    "title": "【2026年版】Shopifyのピッキングリスト自動作成アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyのピッキングリスト自動作成アプリ比較：おすすめ4選</h1><p>倉庫作業のミスを減らし、効率化するためのピッキングリスト生成アプリを比較します。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Whatflow</li><li>EA Auto Translate</li><li>Chargeback.io</li><li>Joltai</li></ul>"
-  },
-  {
-    "title": "【2026年版】Shopifyの配送ラベル一括発行アプリ比較：おすすめ4選",
-    "content": "<h1>【2026年版】Shopifyの配送ラベル一括発行アプリ比較：おすすめ4選</h1><p>ヤマト運輸や佐川急便など、日本の配送業者に対応したラベル発行を自動化するツールです。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Japan Order Management (D)</li><li>Scheduled Delivery Time</li><li>Free Shipping Bar</li><li>Delivery Date</li></ul>"
-  }
+    {
+        "title": "【2026年版】Shopifyのオムニチャネル在庫連携アプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】Shopifyのオムニチャネル在庫連携アプリ比較：おすすめ4選</h1><p>複数チャネルでの在庫を一元管理し、売り逃しや過剰在庫を防ぐための必須アプリを解説します。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Omni Hub</li><li>NotifyMe</li><li>Back in Stock & Restock Alerts</li><li>Pre-Order & Back in Stock</li></ul>"
+    },
+    {
+        "title": "【2026年版】ShopifyのPOSレジ連携アプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】ShopifyのPOSレジ連携アプリ比較：おすすめ4選</h1><p>実店舗とオンラインストアの顧客データ・売上データを統合するための最適な連携ツールを紹介します。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>STORES 連携</li><li>Zon Staff Management</li><li>Smapify</li><li>Avada PDF Invoice</li></ul>"
+    },
+    {
+        "title": "【2026年版】Shopifyのシリアルナンバー管理アプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】Shopifyのシリアルナンバー管理アプリ比較：おすすめ4選</h1><p>限定品や電化製品の管理に欠かせない、個別の識別番号（シリアルナンバー）発行・管理アプリです。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Joy: Loyalty Program</li><li>formrun連携</li><li>Sukeneko（助猫）</li><li>AMP Ticket Reservation</li></ul>"
+    },
+    {
+        "title": "【2026年版】Shopifyのデジタル請求書・領収書発行アプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】Shopifyのデジタル請求書発行アプリ比較：おすすめ4選</h1><p>ペーパーレス化を推進し、顧客がマイページからいつでも請求書をダウンロードできる環境を整えましょう。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Sky Pilot</li><li>Saku Receipt（サクッと領収書）</li><li>Ryoshusho（領収書発行アプリ）</li><li>Kiosq</li></ul>"
+    },
+    {
+        "title": "【2026年版】Shopifyのインボイス制度対応アプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】Shopifyのインボイス制度対応アプリ比較：おすすめ4選</h1><p>日本の税制改正（インボイス制度）に完全対応した適格請求書を発行するための必須ツールです。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Documents Development</li><li>Orders VA</li><li>Korealy</li><li>RuffRuff Tags</li></ul>"
+    },
+    {
+        "title": "【2026年版】Shopifyの梱包明細書カスタマイズアプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】Shopifyの梱包明細書カスタマイズアプリ比較：おすすめ4選</h1><p>発送時の同梱物をブランドイメージに合わせ、顧客体験（アンボクシング体験）を向上させます。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>CheckoutPlus</li><li>Order Printer Templates</li><li>Ryoshusho</li><li>Saku Receipt</li></ul>"
+    },
+    {
+        "title": "【2026年版】Shopifyのピッキングリスト自動作成アプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】Shopifyのピッキングリスト自動作成アプリ比較：おすすめ4選</h1><p>倉庫作業のミスを減らし、効率化するためのピッキングリスト生成アプリを比較します。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Whatflow</li><li>EA Auto Translate</li><li>Chargeback.io</li><li>Joltai</li></ul>"
+    },
+    {
+        "title": "【2026年版】Shopifyの配送ラベル一括発行アプリ比較：おすすめ4選",
+        "content": "<h1>【2026年版】Shopifyの配送ラベル一括発行アプリ比較：おすすめ4選</h1><p>ヤマト運輸や佐川急便など、日本の配送業者に対応したラベル発行を自動化するツールです。</p>&nbsp;<h2 style=\"color: #2c3e50;\">注目アプリ</h2><ul><li>Japan Order Management (D)</li><li>Scheduled Delivery Time</li><li>Free Shipping Bar</li><li>Delivery Date</li></ul>"
+    }
 ]
